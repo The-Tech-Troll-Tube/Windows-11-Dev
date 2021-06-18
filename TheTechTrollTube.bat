@@ -1,0 +1,24 @@
+@echo off
+╭━━━━┳╮╱╭┳━━━╮╭━━━━┳━━━┳━━━┳╮╱╭╮╭━━━━┳━━━┳━━━┳╮╱╱╭╮╱╱╱╭━━━━┳╮╱╭┳━━╮╭━━━╮
+┃╭╮╭╮┃┃╱┃┃╭━━╯┃╭╮╭╮┃╭━━┫╭━╮┃┃╱┃┃┃╭╮╭╮┃╭━╮┃╭━╮┃┃╱╱┃┃╱╱╱┃╭╮╭╮┃┃╱┃┃╭╮┃┃╭━━╯
+╰╯┃┃╰┫╰━╯┃╰━━╮╰╯┃┃╰┫╰━━┫┃╱╰┫╰━╯┃╰╯┃┃╰┫╰━╯┃┃╱┃┃┃╱╱┃┃╱╱╱╰╯┃┃╰┫┃╱┃┃╰╯╰┫╰━━╮
+╱╱┃┃╱┃╭━╮┃╭━━╯╱╱┃┃╱┃╭━━┫┃╱╭┫╭━╮┃╱╱┃┃╱┃╭╮╭┫┃╱┃┃┃╱╭┫┃╱╭╮╱╱┃┃╱┃┃╱┃┃╭━╮┃╭━━╯
+╱╱┃┃╱┃┃╱┃┃╰━━╮╱╱┃┃╱┃╰━━┫╰━╯┃┃╱┃┃╱╱┃┃╱┃┃┃╰┫╰━╯┃╰━╯┃╰━╯┃╱╱┃┃╱┃╰━╯┃╰━╯┃╰━━╮
+╱╱╰╯╱╰╯╱╰┻━━━╯╱╱╰╯╱╰━━━┻━━━┻╯╱╰╯╱╱╰╯╱╰╯╰━┻━━━┻━━━┻━━━╯╱╱╰╯╱╰━━━┻━━━┻━━━╯
+title Activate Windows 10 / Public Windows 11 Later / Windows 11 Dev (OS BUILD 21996.1) ALL versions FREE! The Tech Troll Tube YouTube Channel&cls&echo ============================================================================&echo # TOOLKIT SOFTWARE FOR: Activating Microsoft WINDOWS 11 / Windows 11 Dev (OS BUILD 21996.1)&echo FREE without software (The Tech Troll Tube PLEASE LIKE, SUBSCRIBE AND SHARE)&echo ============================================================================&echo.&echo #Supported products:&echo.&echo - Windows 10 Home&echo - Windows 10 Home N&echo - Windows 10 Home Single Language&echo - Windows 10 Home Country Specific&echo - Windows 10 Professional&echo - Windows 10 Professional N&echo - Windows 10 Education N&echo - Windows 10 Education N&echo - Windows 10 Enterprise&echo - Windows 10 Enterprise N&echo - Windows 10 Enterprise LTSB&echo - Windows 10 Enterprise LTSB N&echo - Windows 11 Home&echo - Windows 11 Home N&echo - Windows 11 Home Single Language&echo - Windows 11 Home Country Specific&echo - Windows 11 Pro&echo - Windows 11 Pro N&echo - Windows 11 Education&echo - Windows 11 Education N&echo - Windows 11 Enterprise&echo - Windows 11 Enterprise N&echo - Windows 11 Enterprise LTSB&echo - Windows 11 Enterprise LTSB N&echo.&echo ============================================================================&echo.&echo Activating your Copy of Windows 10 / Windows 11...&cscript //nologo slmgr.vbs /upk >nul&cscript //nologo slmgr.vbs /cpky >nul&wmic os | findstr /I "enterprise" >nul
+if %errorlevel% EQU 0 (cscript //nologo slmgr.vbs /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43 >nul&cscript //nologo slmgr.vbs /ipk DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 >nul&cscript //nologo slmgr.vbs /ipk WNMTR-4C88C-JK8YV-HQ7T2-76DF9 >nul&cscript //nologo slmgr.vbs /ipk 2F77B-TNFGY-69QQF-B8YKP-D69TJ >nul&cscript //nologo slmgr.vbs /ipk DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ >nul&cscript //nologo slmgr.vbs /ipk QFFDN-GRT3P-VKWWX-X7T3R-8B639 >nul) else wmic os | findstr /I "11 pro" >nul
+if %errorlevel% EQU 0 (cscript //nologo slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX >nul&cscript //nologo slmgr.vbs /ipk MH37W-N47XK-V7XM9-C7227-GCQG9 >nul) else wmic os | findstr /I "home" >nul
+if %errorlevel% EQU 0 (cscript //nologo slmgr.vbs /ipk TX9XD-98N7V-6WMQ6-BX7FG-H8Q99 >nul&cscript //nologo slmgr.vbs /ipk 3KHY7-WNT83-DGQKR-F7HPR-844BM >nul&cscript //nologo slmgr.vbs /ipk 7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH >nul&cscript //nologo slmgr.vbs /ipk PVMJN-6DFY6-9CCP6-7BKTT-D3WVR >nul) else (echo.)
+set i=1
+:server
+if %i%==1 set KMS_Sev=kms7.MSGuides.com
+if %i%==2 set KMS_Sev=kms8.MSGuides.com
+if %i%==3 set KMS_Sev=kms9.MSGuides.com
+if %i%==4 goto notsupported
+cscript //nologo slmgr.vbs /skms %KMS_Sev% >nul&echo ============================================================================&echo.
+cscript //nologo slmgr.vbs /ato | find /i "successfully" && (echo.&echo ============================================================================&echo.&echo # My official YouTube Channel: The Tech Troll Tube &echo.&echo ##### CONGRATS!! ####&echo.&echo BOOM!&echo.&echo THERE YOU GO&echo.&echo MISSION PASSED!!&echo.&echo RESPECT +&echo.&echo ENJOY AND DON'T FORGET TO RESTART!!!&echo.&echo AND YES, PLEASE DON'T FORGET TO SUBSCRIBE TO THE TECH TROLL TUBE YouTube CHANNEL ALSO LIKE AND SHARE!!&echo.&echo VISIT MY CHANNEL BY SIMPLY PRESSING THE [Y] KEY ON YOUR KEYBOARD, THANKS&echo.&echo============================================================================&choice /n /c YN /m "Would you like to visit my YouTube Channel (For Yes-[Y] key and for No-[N] key) [Y,N]?" & if errorlevel 2 exit) || (echo The connection to the KMS server failed! Trying to connect to alternate Server... & echo Please wait and don't quit... LA.DA.DA.DA.DA... & echo. & set /a i+=1 & goto server)
+explorer "https://www.youtube.com/channel/UCU0XJuh2J_NwMwoFETrM_UA"&goto halt
+:notsupported
+echo ============================================================================&echo.&echo Hey, Really Sorry Buddy!&echo This Windows version may not be supported!!!&echo But if you do believe you are not wrong, do TRY running this Batch Script as an Administrator!!&echo And make sure you are Connected to The Network!!, just in case you FORGOT to.&echo.
+:halt
+pause >nul
